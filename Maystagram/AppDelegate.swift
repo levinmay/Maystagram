@@ -8,6 +8,10 @@
 
 import UIKit
 
+import Firebase
+
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,7 +19,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        FirebaseApp.configure()
+        
+       let initialViewController = UIStoryboard.initialViewController(for: .login)            // 3
+            window?.rootViewController = initialViewController
+            // 4
+            window?.makeKeyAndVisible()
+        
+        
         return true
     }
 
@@ -41,6 +52,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+   
 
 }
 
