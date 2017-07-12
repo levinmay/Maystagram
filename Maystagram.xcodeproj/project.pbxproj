@@ -16,6 +16,15 @@
 		E92E65B91F151BFD00F32435 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65B81F151BFD00F32435 /* UserService.swift */; };
 		E92E65BC1F1525BB00F32435 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65BB1F1525BB00F32435 /* Constants.swift */; };
 		E92E65C01F15284D00F32435 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65BF1F15284C00F32435 /* Storyboard+Utility.swift */; };
+		E92E65C31F155CBA00F32435 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65C21F155CBA00F32435 /* HomeViewController.swift */; };
+		E92E65C51F155CC700F32435 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65C41F155CC700F32435 /* FindFriendsViewController.swift */; };
+		E92E65C71F15657200F32435 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65C61F15657200F32435 /* MainTabBarController.swift */; };
+		E92E65C91F15695900F32435 /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65C81F15695900F32435 /* MGPhotoHelper.swift */; };
+		E92E65CC1F1660BF00F32435 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65CB1F1660BF00F32435 /* StorageService.swift */; };
+		E92E65CE1F16625000F32435 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65CD1F16624F00F32435 /* PostService.swift */; };
+		E92E65D01F16650E00F32435 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65CF1F16650E00F32435 /* Post.swift */; };
+		E92E65D31F16677B00F32435 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65D21F16677B00F32435 /* UIImage+Size.swift */; };
+		E92E65D51F1667D400F32435 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65D41F1667D400F32435 /* StorageReference+Post.swift */; };
 		E97A23AF1F0FD94000E3F027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A23AE1F0FD94000E3F027 /* AppDelegate.swift */; };
 		E97A23B41F0FD94000E3F027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97A23B21F0FD94000E3F027 /* Main.storyboard */; };
 		E97A23B61F0FD94000E3F027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97A23B51F0FD94000E3F027 /* Assets.xcassets */; };
@@ -34,6 +43,15 @@
 		E92E65B81F151BFD00F32435 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		E92E65BB1F1525BB00F32435 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Supporting/Constants.swift; sourceTree = "<group>"; };
 		E92E65BF1F15284C00F32435 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
+		E92E65C21F155CBA00F32435 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E92E65C41F155CC700F32435 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
+		E92E65C61F15657200F32435 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		E92E65C81F15695900F32435 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGPhotoHelper.swift; path = Helpers/MGPhotoHelper.swift; sourceTree = "<group>"; };
+		E92E65CB1F1660BF00F32435 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		E92E65CD1F16624F00F32435 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostService.swift; path = Services/PostService.swift; sourceTree = "<group>"; };
+		E92E65CF1F16650E00F32435 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		E92E65D21F16677B00F32435 /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
+		E92E65D41F1667D400F32435 /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
 		E97A23AB1F0FD94000E3F027 /* Maystagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maystagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97A23AE1F0FD94000E3F027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E97A23B31F0FD94000E3F027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,6 +94,9 @@
 			children = (
 				E92E65B61F14064700F32435 /* CreateUsernameViewController.swift */,
 				E92E65B21F13C1F000F32435 /* LoginViewController.swift */,
+				E92E65C21F155CBA00F32435 /* HomeViewController.swift */,
+				E92E65C41F155CC700F32435 /* FindFriendsViewController.swift */,
+				E92E65C61F15657200F32435 /* MainTabBarController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -103,6 +124,8 @@
 		E92E65BA1F151C0200F32435 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				E92E65CB1F1660BF00F32435 /* StorageService.swift */,
+				E92E65CD1F16624F00F32435 /* PostService.swift */,
 				E92E65B81F151BFD00F32435 /* UserService.swift */,
 			);
 			name = Services;
@@ -111,9 +134,28 @@
 		E92E65C11F15285200F32435 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E92E65D41F1667D400F32435 /* StorageReference+Post.swift */,
+				E92E65D21F16677B00F32435 /* UIImage+Size.swift */,
 				E92E65BF1F15284C00F32435 /* Storyboard+Utility.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E92E65CA1F15698A00F32435 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E92E65C81F15695900F32435 /* MGPhotoHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		E92E65D11F16651600F32435 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E92E65CF1F16650E00F32435 /* Post.swift */,
+				E92E65B41F14002600F32435 /* User.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		E97A23A21F0FD94000E3F027 = {
@@ -137,10 +179,11 @@
 		E97A23AD1F0FD94000E3F027 /* Maystagram */ = {
 			isa = PBXGroup;
 			children = (
+				E92E65D11F16651600F32435 /* Models */,
+				E92E65CA1F15698A00F32435 /* Helpers */,
 				E92E65C11F15285200F32435 /* Extensions */,
 				E92E65BA1F151C0200F32435 /* Services */,
 				E97A23AE1F0FD94000E3F027 /* AppDelegate.swift */,
-				E92E65B41F14002600F32435 /* User.swift */,
 				E92E65AD1F13BD3300F32435 /* View Controllers */,
 				E92E65AE1F13BD4000F32435 /* Storyboards */,
 				E97A23B51F0FD94000E3F027 /* Assets.xcassets */,
@@ -276,10 +319,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				E92E65B31F13C1F000F32435 /* LoginViewController.swift in Sources */,
+				E92E65CC1F1660BF00F32435 /* StorageService.swift in Sources */,
 				E92E65B91F151BFD00F32435 /* UserService.swift in Sources */,
+				E92E65C71F15657200F32435 /* MainTabBarController.swift in Sources */,
 				E92E65C01F15284D00F32435 /* Storyboard+Utility.swift in Sources */,
+				E92E65D01F16650E00F32435 /* Post.swift in Sources */,
+				E92E65D31F16677B00F32435 /* UIImage+Size.swift in Sources */,
+				E92E65C31F155CBA00F32435 /* HomeViewController.swift in Sources */,
+				E92E65C91F15695900F32435 /* MGPhotoHelper.swift in Sources */,
 				E92E65B51F14002600F32435 /* User.swift in Sources */,
+				E92E65C51F155CC700F32435 /* FindFriendsViewController.swift in Sources */,
+				E92E65D51F1667D400F32435 /* StorageReference+Post.swift in Sources */,
 				E92E65BC1F1525BB00F32435 /* Constants.swift in Sources */,
+				E92E65CE1F16625000F32435 /* PostService.swift in Sources */,
 				E92E65B71F14064700F32435 /* CreateUsernameViewController.swift in Sources */,
 				E97A23AF1F0FD94000E3F027 /* AppDelegate.swift in Sources */,
 			);
