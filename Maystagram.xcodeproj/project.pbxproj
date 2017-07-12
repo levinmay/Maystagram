@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		74781C19E6E083A0FC2C74E7 /* Pods_Maystagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A1A57D5DD9E5495FA5F06E /* Pods_Maystagram.framework */; };
-		E92E65AC1F0FDE5A00F32435 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E92E65AB1F0FDE5A00F32435 /* GoogleService-Info.plist */; };
 		E92E65B11F13C03800F32435 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92E65B01F13C03800F32435 /* Login.storyboard */; };
 		E92E65B31F13C1F000F32435 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65B21F13C1F000F32435 /* LoginViewController.swift */; };
 		E92E65B51F14002600F32435 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65B41F14002600F32435 /* User.swift */; };
@@ -25,6 +24,7 @@
 		E92E65D01F16650E00F32435 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65CF1F16650E00F32435 /* Post.swift */; };
 		E92E65D31F16677B00F32435 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65D21F16677B00F32435 /* UIImage+Size.swift */; };
 		E92E65D51F1667D400F32435 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92E65D41F1667D400F32435 /* StorageReference+Post.swift */; };
+		E92E65F51F166E7900F32435 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E92E65F41F166E7900F32435 /* GoogleService-Info.plist */; };
 		E97A23AF1F0FD94000E3F027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A23AE1F0FD94000E3F027 /* AppDelegate.swift */; };
 		E97A23B41F0FD94000E3F027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97A23B21F0FD94000E3F027 /* Main.storyboard */; };
 		E97A23B61F0FD94000E3F027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97A23B51F0FD94000E3F027 /* Assets.xcassets */; };
@@ -35,7 +35,6 @@
 		0500ACB28A6F94EC4D1499E7 /* Pods-Maystagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Maystagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Maystagram/Pods-Maystagram.release.xcconfig"; sourceTree = "<group>"; };
 		6DA905725597F0EFCA5D9515 /* Pods-Maystagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Maystagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Maystagram/Pods-Maystagram.debug.xcconfig"; sourceTree = "<group>"; };
 		C5A1A57D5DD9E5495FA5F06E /* Pods_Maystagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Maystagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E92E65AB1F0FDE5A00F32435 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E92E65B01F13C03800F32435 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Storyboards/Login.storyboard; sourceTree = "<group>"; };
 		E92E65B21F13C1F000F32435 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controllers/LoginViewController.swift; sourceTree = "<group>"; };
 		E92E65B41F14002600F32435 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
@@ -52,6 +51,7 @@
 		E92E65CF1F16650E00F32435 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		E92E65D21F16677B00F32435 /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
 		E92E65D41F1667D400F32435 /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
+		E92E65F41F166E7900F32435 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E97A23AB1F0FD94000E3F027 /* Maystagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maystagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97A23AE1F0FD94000E3F027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E97A23B31F0FD94000E3F027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 			children = (
 				E97A23B71F0FD94000E3F027 /* LaunchScreen.storyboard */,
 				E97A23BA1F0FD94000E3F027 /* Info.plist */,
-				E92E65AB1F0FDE5A00F32435 /* GoogleService-Info.plist */,
+				E92E65F41F166E7900F32435 /* GoogleService-Info.plist */,
 				E92E65BB1F1525BB00F32435 /* Constants.swift */,
 			);
 			name = "Supporting Files";
@@ -256,7 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E97A23B91F0FD94000E3F027 /* LaunchScreen.storyboard in Resources */,
-				E92E65AC1F0FDE5A00F32435 /* GoogleService-Info.plist in Resources */,
+				E92E65F51F166E7900F32435 /* GoogleService-Info.plist in Resources */,
 				E97A23B61F0FD94000E3F027 /* Assets.xcassets in Resources */,
 				E92E65B11F13C03800F32435 /* Login.storyboard in Resources */,
 				E97A23B41F0FD94000E3F027 /* Main.storyboard in Resources */,
